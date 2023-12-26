@@ -1,0 +1,50 @@
+{
+    "name": "яαввιтχ",
+    "description": "a pyrogram based telegram userbot with extra features",
+    "logo": "https://telegra.ph/file/a9efe0eb8f543daae94e5.jpg",
+    "keywords": [
+    "python3",
+    "telegram",
+    "Subhi",
+    "Userbot",
+    "telegram-bot",
+    "pyrogram"
+    ],
+    "env": {
+      "API_ID": {
+        "description": "Get this value from https://my.telegram.org",
+        "value": "",
+        "required": true
+      },
+      "API_HASH": {
+        "description": "Get this value from https://my.telegram.org",
+        "value": "",
+        "required": true
+      },
+      "BOT_TOKEN": {
+        "description": "A Bot's token from Botfather",
+        "value": "",
+        "required": true
+      },
+      "STRING_SESSION": {
+        "description": "A pyrogram v2 string session by running cmd python3 session.py in heroku console",
+        "value": "",
+        "required": true
+      },
+      "LOG_GROUP_ID": {
+        "description": "a telegram logs group id",
+        "value": "",
+        "required": true
+      },
+      "HANDLER": {
+        "description": "your command handler",
+        "value": "",
+        "required": true
+      },
+      "MONGO_URI": {
+        "description": "A mongodb url ",
+        "value": "",
+        "required": true
+      }
+    }
+ }

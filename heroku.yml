@@ -1,0 +1,5 @@
+build:
+  docker:
+    Subhi: Dockerfile
+run:
+  Subhi: python3 -m Subhi
